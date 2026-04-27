@@ -7,5 +7,8 @@ Project ini berisi test automation menggunakan [Playwright] dengan bahasa JavaSc
 2. Install dependencies:
 ```bash
 npm install
-3. Jalankan test:
+```
+3. Jalankan Project:
+```bash
 npx playwright test
+```
