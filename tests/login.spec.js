@@ -1,0 +1,7 @@
+// @ts-check
+import { test, expect } from '@playwright/test';
+
+test('open saucedemo', async ({ page }) => {
+  await page.goto('/');
+
+});
