@@ -1,6 +1,8 @@
-export class LoginPage {
+import { basePage } from "./base.page"; 
+
+export class LoginPage extends basePage{
     constructor(page){
-        this.page = page;
+        super(page);
 
         this.usernameInput = page.locator('#user-name');
         this.passwordInput = page.locator('#password');
@@ -8,7 +10,7 @@ export class LoginPage {
     }
 
     async goto(){
-        await this.page.goto('/inventory.html');
+        await super.goto('/inventory.html');
     }
 
     async login(username, password){
