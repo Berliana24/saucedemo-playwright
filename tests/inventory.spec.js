@@ -1,6 +1,5 @@
 import {test, expect} from './fixtures/auth.fixture';
 import {inventoryPage} from '../pages/inventory.page';
-import { LoginPage } from '../pages/login.page';
 
 test.describe('Inventory Page', () => {
     test('Should navigate to inventory page after successful login', async ({loggedInPage}) => {
